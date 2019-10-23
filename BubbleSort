@@ -21,6 +21,7 @@ int main()
 		{
 			if (v[j + 1] <= v[j])
 			{
+			        //交换两个数的值
 				tmp = v[j + 1];
 				v[j + 1] = v[j];
 				v[j] = tmp;
